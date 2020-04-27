@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Mercury Tours Flight Booking Application" duration-ms="84841" started-at="2020-04-27T09:08:15Z" finished-at="2020-04-27T09:09:40Z">
+    <groups>
+    </groups>
+    <test name="Mercury Tours App Test Cases" duration-ms="84841" started-at="2020-04-27T09:08:15Z" finished-at="2020-04-27T09:09:40Z">
+      <class name="com.demoaut.testcases.LoginTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.demoaut.testcases.LoginTest@6591f517]" name="SetUp" is-config="true" duration-ms="11685" started-at="2020-04-27T14:38:50Z" finished-at="2020-04-27T14:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Logintest(java.lang.String, java.lang.String)[pri:1, instance:com.demoaut.testcases.LoginTest@6591f517]" name="Logintest" duration-ms="17021" started-at="2020-04-27T14:39:02Z" data-provider="getData" finished-at="2020-04-27T14:39:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logintest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demoaut.testcases.LoginTest@6591f517]" name="tearDown" is-config="true" duration-ms="820" started-at="2020-04-27T14:39:19Z" finished-at="2020-04-27T14:39:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.demoaut.testcases.LoginTest@6591f517]" name="SetUp" is-config="true" duration-ms="11720" started-at="2020-04-27T14:39:19Z" finished-at="2020-04-27T14:39:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Logintest_falseValidate(java.lang.String, java.lang.String)[pri:2, instance:com.demoaut.testcases.LoginTest@6591f517]" name="Logintest_falseValidate" duration-ms="2977" started-at="2020-04-27T14:39:31Z" data-provider="getData_false" finished-at="2020-04-27T14:39:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demoacc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logintest_falseValidate -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demoaut.testcases.LoginTest@6591f517]" name="tearDown" is-config="true" duration-ms="842" started-at="2020-04-27T14:39:34Z" finished-at="2020-04-27T14:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.demoaut.testcases.LoginTest@6591f517]" name="report" is-config="true" duration-ms="5065" started-at="2020-04-27T14:39:35Z" finished-at="2020-04-27T14:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+      </class> <!-- com.demoaut.testcases.LoginTest -->
+      <class name="com.demoaut.testcases.BookReturnTicketTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.demoaut.testcases.BookReturnTicketTest@5a4aa2f2]" name="SetUp" is-config="true" duration-ms="23612" started-at="2020-04-27T14:38:15Z" finished-at="2020-04-27T14:38:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="BookReturnticketTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.demoaut.testcases.BookReturnTicketTest@5a4aa2f2]" name="BookReturnticketTest" duration-ms="9981" started-at="2020-04-27T14:38:39Z" data-provider="getData" finished-at="2020-04-27T14:38:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hanson]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3245612345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Hanson]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookReturnticketTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demoaut.testcases.BookReturnTicketTest@5a4aa2f2]" name="tearDown" is-config="true" duration-ms="810" started-at="2020-04-27T14:38:49Z" finished-at="2020-04-27T14:38:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoaut.testcases.BookReturnTicketTest -->
+    </test> <!-- Mercury Tours App Test Cases -->
+  </suite> <!-- Mercury Tours Flight Booking Application -->
+</testng-results>

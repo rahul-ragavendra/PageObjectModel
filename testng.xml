@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mercury Tours Flight Booking Application">
+	<listeners>
+		<listener class-name="com.demoaut.utils.ExtentReportListener" />
+	</listeners>
+	<test name="Mercury Tours App Test Cases">
+		<classes>
+			<class name="com.demoaut.testcases.BookReturnTicketTest"></class>
+			<class name="com.demoaut.testcases.LoginTest"></class>
+		</classes>
+	</test>
+</suite>
