@@ -3,19 +3,20 @@
 <suite verbose="0" name="Failed suite [Command line suite]">
   <test name="Command line test(failed)">
     <classes>
-      <class name="com.demoaut.testcases.BookReturnTicketTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="SetUp"/>
-        </methods>
-      </class> <!-- com.demoaut.testcases.BookReturnTicketTest -->
       <class name="com.demoaut.testcases.LoginTest">
         <methods>
-          <include name="Logintest"/>
+          <include name="report"/>
+          <include name="Logintest" invocation-numbers="0"/>
           <include name="SetUp"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.demoaut.testcases.LoginTest -->
+      <class name="com.demoaut.testcases.BookReturnTicketTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="BookReturnticketTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.demoaut.testcases.BookReturnTicketTest -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

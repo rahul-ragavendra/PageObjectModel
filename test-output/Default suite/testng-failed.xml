@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.demoaut.testcases.BookReturnTicketTest">
+      <class name="com.mercurytours.Testcases.VerifyLogin">
         <methods>
-          <include name="SetUp"/>
-          <include name="BookReturnticketTest" invocation-numbers="0"/>
+          <include name="CheckvalidUser"/>
         </methods>
-      </class> <!-- com.demoaut.testcases.BookReturnTicketTest -->
+      </class> <!-- com.mercurytours.Testcases.VerifyLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
